@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  mysql:
+    image: mysql:5.7.18
+    environment:
+      MYSQL_ROOT_HOST: '%'
+      MYSQL_ALLOW_EMPTY_PASSWORD: 'true'
+    command: --lower_case_table_names=1
+    ports:
+      - 3306:3306
+    volumes:
+        - ./init.d/:/docker-entrypoint-initdb.d/

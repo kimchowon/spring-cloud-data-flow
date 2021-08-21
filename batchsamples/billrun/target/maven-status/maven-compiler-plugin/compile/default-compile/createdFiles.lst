@@ -1,0 +1,5 @@
+io/spring/billrun/model/Usage.class
+io/spring/billrun/configuration/BillProcessor.class
+io/spring/billrun/configuration/BillingConfiguration.class
+io/spring/billrun/BillrunApplication.class
+io/spring/billrun/model/Bill.class

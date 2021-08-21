@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: io.spring.billsetuptask.BillSetupTaskApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.02 s - in io.spring.billsetuptask.BillSetupTaskApplicationTests
